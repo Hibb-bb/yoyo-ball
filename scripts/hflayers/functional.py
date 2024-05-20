@@ -4,7 +4,7 @@ import torch.nn as nn
 from torch import Tensor
 from typing import Optional, Tuple, Union
 import warnings
-from entmax import sparsemax, entmax15, entmax_bisectn, normmax_bisect
+from entmax import sparsemax, entmax15, entmax_bisect, normmax_bisect
 from lpsmap import TorchFactorGraph, Budget
 from torch.autograd import Function
 
